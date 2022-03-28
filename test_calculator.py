@@ -19,12 +19,15 @@ class calculator_test(unittest.TestCase):
         a = 23
         b = 34
         c = calculator.mul(a, b)
-        self.assertEqual(a*b, c)
+
+
 
     def test_div(self):
         a = 23
         b = 34
         c = calculator.div(a, b)
-        self.assertEqual(a/b, c)
-if __name__=="__main__":
+
+if __name__ = "__main__":
     unittest.main()
+
+
